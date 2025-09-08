@@ -19,7 +19,7 @@ These simulations provide foundation for further studies, including trajectory p
 - **`Motor_Inputs.py`** – Defines the open-loop sequence of motor commands for controlling the quadrotor.  
 - **`Dyn_Plots.py`** – Generates plots of the simulated quadrotor dynamics.  
 
-### MATLAB-Simulation  
+### MATLAB-Simulation (soon to come)  
 - **`X_quad.m`** – Main simulation file.  
 - **`Motor_inputs.m`** – Open-loop motor input sequence.  
 - **`EulerRot.m`** – Handles Euler rotation calculations.  
