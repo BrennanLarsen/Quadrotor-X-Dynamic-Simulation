@@ -1,4 +1,7 @@
 # Dyn_Plots.py
+# ================================================== #
+#    Written by Brennan Larsen
+# ================================================== #
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -93,3 +96,4 @@ def plot_states():
     fig.suptitle("Quadrotor Dynamics\n", fontsize=16)
     fig.tight_layout()
     plt.show()
+
