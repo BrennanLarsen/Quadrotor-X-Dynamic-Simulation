@@ -1,3 +1,6 @@
+# ================================================== #
+#    Written by Brennan Larsen
+# ================================================== #
 import numpy as np
 import pandas as pd
 from pathlib import Path
@@ -260,4 +263,5 @@ def model():
 logs = model()
 df = pd.DataFrame(logs)
 df.to_excel(data_path, index=False)
+
 plot_states()
