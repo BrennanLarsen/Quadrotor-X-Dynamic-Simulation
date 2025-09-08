@@ -1,4 +1,7 @@
 # Motor_Inputs.py
+# ================================================== #
+#    Written by Brennan Larsen
+# ================================================== #
 import numpy as np
 
 def open_loop_motor_inputs(t, omega_h):
@@ -181,4 +184,5 @@ def open_loop_motor_inputs(t, omega_h):
     u3 = max(u3, 0)
     u4 = max(u4, 0)
     
+
     return u1, u2, u3, u4
